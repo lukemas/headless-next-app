@@ -23,8 +23,6 @@
        });
        const json = await data.json();
 
-        console.log(data);
-
         res.json(json.data);
-        // return data;
+  
     }
